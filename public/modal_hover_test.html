@@ -1,0 +1,122 @@
+<!-- ホバー処理がトリガーでなんかいい感じに画像の上にモーダルの表示がある状態 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel='stylesheet' type='text/css' href='./style_modal.css'>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<body>
+
+<!-- =========================動的にテキストを書き込めるかテスト =====================-->
+	<img src="http://lpc.rentracks.work//ng_image/rovectin-jp.com/徹_底_的_1.png" id='test_1'data-target="con4" class="modal-open" width="1180" height="720" alt="">
+
+<!-- =========================一箇所 =====================-->
+<div class="view view-first">
+     <img src="http://lpc.rentracks.work//ng_image/rovectin-jp.com/紫_外_線_ダ_メ_ー_ジ.png" id='test_2'data-target="con4" class="modal-open" width="1180" height="720" alt="">
+     <div class="mask">
+     <h2>NGワード</h2>
+     <p>訂正文を挿入する</p>
+     </div>  
+</div> 
+
+<!-- =========================一箇所 =====================-->
+<div class="view view-first">
+     <img src="http://lpc.rentracks.work//ng_image/rovectin-jp.com/紫_外_線_ダ_メ_ー_ジ.png" id='test_2'data-target="con4" class="modal-open" width="1180" height="720" alt="">
+     <div class="mask">
+     <h2>NGワード2</h2>
+     <p>訂正文を挿入するtake2</p> 
+     </div>  
+</div> 
+
+</body>
+</html>
+
+<!-- スタイルは外部CSSに埋め込んでいいかもしれない -->
+<style>
+.view-first img { 
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(219,127,8, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p { 
+    transform: translateY(100px);
+    opacity: 0;
+	transition: all 0.2s linear;
+}
+
+.view-first:hover img { 
+	transform: scale(1.1);
+} 
+.view-first:hover .mask { 
+	opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+
+.view {
+    margin: 10px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+.view .mask, .view .content {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
+/*NG熟語のフォント設定*/
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+/*エラー文章の文字フォント設定*/
+.view p {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    color: #000;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+</style>
+
+
+<script>
+
+// これでNGのループを作成すればいい感じかも
+$('#test_1').wrap("<div class='view view-first' id=test_1_view ></div>");
+$('#test_1_view').append("<div class='mask'> <h2>NGワード</h2> <p>訂正文を挿入する</p>");
+
+</script>

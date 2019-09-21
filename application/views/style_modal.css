@@ -1,0 +1,18 @@
+.ngimage {
+  position: relative !important;
+  }
+
+.ngimage p {
+  position: absolute !important;
+  top: 0 !important;/*画像の左上に配置*/
+  left: 0 !important;
+  margin: 100 !important; /*間*/
+  color: black !important; /*文字色*/
+  background-color: rgba(219,127,8, 0.5) !important; 
+  font-size: 30px !important;
+  padding: 10px 20px !important;/*文字周りの余白*/
+  }
+
+.ngimage img {
+  transition: all 0.2s linear !important;
+}

@@ -1,0 +1,147 @@
+[10-Apr-2019 06:26:39 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/lp_check_v1/application//vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 22
+[10-Apr-2019 06:26:39 UTC] PHP Stack trace:
+[10-Apr-2019 06:26:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[10-Apr-2019 06:26:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[10-Apr-2019 06:26:39 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[10-Apr-2019 06:26:39 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[10-Apr-2019 06:26:39 UTC] PHP   5. Model->getJpg() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:25
+[10-Apr-2019 06:29:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/lp_check_v1/application/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 22
+[10-Apr-2019 06:29:30 UTC] PHP Stack trace:
+[10-Apr-2019 06:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[10-Apr-2019 06:29:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[10-Apr-2019 06:29:30 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[10-Apr-2019 06:29:30 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[10-Apr-2019 06:29:30 UTC] PHP   5. Model->getJpg() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:25
+[18-Apr-2019 02:58:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 256
+[18-Apr-2019 02:58:24 UTC] PHP Stack trace:
+[18-Apr-2019 02:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[18-Apr-2019 02:58:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[18-Apr-2019 02:58:24 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[18-Apr-2019 02:58:24 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[18-Apr-2019 02:58:24 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[18-Apr-2019 03:02:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 234
+[18-Apr-2019 03:02:42 UTC] PHP Stack trace:
+[18-Apr-2019 03:02:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[18-Apr-2019 03:02:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[18-Apr-2019 03:02:42 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[18-Apr-2019 03:02:42 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[18-Apr-2019 03:02:42 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[19-Apr-2019 09:27:48 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 292
+[19-Apr-2019 09:27:48 UTC] PHP Stack trace:
+[19-Apr-2019 09:27:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[19-Apr-2019 09:27:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[19-Apr-2019 09:27:48 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[19-Apr-2019 09:27:48 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[19-Apr-2019 09:27:48 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:15:00 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/lp_check_v1/application/models../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 22
+[12-May-2019 08:15:00 UTC] PHP Stack trace:
+[12-May-2019 08:15:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:15:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:15:00 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:15:00 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:15:00 UTC] PHP   5. Model->getJpg() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:27
+[12-May-2019 08:17:26 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/lp_check_v1/application/models/ ../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 23
+[12-May-2019 08:17:26 UTC] PHP Stack trace:
+[12-May-2019 08:17:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:17:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:17:26 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:17:26 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:17:26 UTC] PHP   5. Model->getJpg() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:27
+[12-May-2019 08:29:09 UTC] PHP Parse error:  syntax error, unexpected '$client' (T_VARIABLE) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 26
+[12-May-2019 08:29:09 UTC] PHP Stack trace:
+[12-May-2019 08:29:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:29:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:29:09 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:29:09 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:29:09 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:44:50 UTC] PHP Parse error:  syntax error, unexpected ''/../../vendor/bin/phantomjs'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 27
+[12-May-2019 08:44:50 UTC] PHP Stack trace:
+[12-May-2019 08:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:44:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:44:50 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:44:50 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:44:50 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:47:00 UTC] PHP Parse error:  syntax error, unexpected ''/../../vendor/bin/phantomjs'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 28
+[12-May-2019 08:47:00 UTC] PHP Stack trace:
+[12-May-2019 08:47:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:47:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:47:00 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:47:00 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:47:00 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:47:25 UTC] PHP Parse error:  syntax error, unexpected ''/../../vendor/bin/phantomjs'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 28
+[12-May-2019 08:47:25 UTC] PHP Stack trace:
+[12-May-2019 08:47:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:47:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:47:25 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:47:25 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:47:25 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:47:41 UTC] PHP Parse error:  syntax error, unexpected ''/../../vendor/bin/phantomjs'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 28
+[12-May-2019 08:47:41 UTC] PHP Stack trace:
+[12-May-2019 08:47:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:47:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:47:41 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:47:41 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:47:41 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:48:06 UTC] PHP Parse error:  syntax error, unexpected ''/../../vendor/bin/phantomjs'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 28
+[12-May-2019 08:48:06 UTC] PHP Stack trace:
+[12-May-2019 08:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:48:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:48:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:48:06 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:48:06 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:48:19 UTC] PHP Parse error:  syntax error, unexpected ''/../../vendor/bin/phantomjs'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 28
+[12-May-2019 08:48:19 UTC] PHP Stack trace:
+[12-May-2019 08:48:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:48:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:48:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:48:19 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:48:19 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:49:06 UTC] PHP Parse error:  syntax error, unexpected ''/../../vendor/bin/phantomjs'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 24
+[12-May-2019 08:49:06 UTC] PHP Stack trace:
+[12-May-2019 08:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:49:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:49:06 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:49:06 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:49:06 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:49:31 UTC] PHP Parse error:  syntax error, unexpected ''/../../vendor/bin/phantomjs'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 24
+[12-May-2019 08:49:31 UTC] PHP Stack trace:
+[12-May-2019 08:49:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:49:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:49:31 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:49:31 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:49:31 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:50:00 UTC] PHP Parse error:  syntax error, unexpected ''/../vendor/bin/phantomjs'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 26
+[12-May-2019 08:50:00 UTC] PHP Stack trace:
+[12-May-2019 08:50:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:50:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:50:00 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:50:00 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:50:00 UTC] PHP   5. CI_Loader->model() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:13
+[12-May-2019 08:51:07 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/lp_check_v1/application/models../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 23
+[12-May-2019 08:51:07 UTC] PHP Stack trace:
+[12-May-2019 08:51:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:51:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:51:07 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:51:07 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:51:07 UTC] PHP   5. Model->getJpg() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:27
+[12-May-2019 08:51:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/lp_check_v1/application/models/../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 23
+[12-May-2019 08:51:25 UTC] PHP Stack trace:
+[12-May-2019 08:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:51:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:51:25 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:51:25 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:51:25 UTC] PHP   5. Model->getJpg() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:27
+[12-May-2019 08:55:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/lp_check_v1/application/models../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 22
+[12-May-2019 08:55:13 UTC] PHP Stack trace:
+[12-May-2019 08:55:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:55:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:55:13 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:55:13 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:55:13 UTC] PHP   5. Model->getJpg() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:27
+[12-May-2019 08:58:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 134217728 bytes) in /home/ubuntu/workspace/lp_check_v1/application/models/Model.php on line 25
+[12-May-2019 08:58:31 UTC] PHP Stack trace:
+[12-May-2019 08:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/lp_check_v1/public/index.php:0
+[12-May-2019 08:58:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/lp_check_v1/public/index.php:315
+[12-May-2019 08:58:31 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532}() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:58:31 UTC] PHP   4. Form->index() /home/ubuntu/workspace/lp_check_v1/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+[12-May-2019 08:58:31 UTC] PHP   5. Model->getJpg() /home/ubuntu/workspace/lp_check_v1/application/controllers/Form.php:27

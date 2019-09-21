@@ -1,0 +1,49 @@
+<!-- ホバー処理がない状態 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<body>
+
+<!-- <div class="ngimage"> -->
+<img src="http://lpc.rentracks.work//ng_image/rovectin-jp.com/徹_底_的_1.png" id='test_1'data-target="con4" class="modal-open" width="1180" height="720" alt=""/>
+  <!-- <p>NGテキスト : どのくらいの文字列が埋め込めるかのテスト</p> -->
+<!-- </div> -->
+
+</body>
+</html>
+
+<!-- 親要素のCSSが適用されてうまく続かないときには、!importantで強制的に読み込ませることも可能になる -->
+<style>
+
+.ngimage {
+  position: relative;
+  }
+
+.ngimage p {
+  position: absolute;
+  top: 0;/*画像の左上に配置*/
+  left: 0;
+  margin: 100; /*間*/
+  color: black; /*文字色*/
+  background-color: rgba(219,127,8, 0.5); 
+  font-size: 30px;
+  padding: 10px 20px;/*文字周りの余白*/
+  }
+
+.ngimage img {
+  transition: all 0.2s linear;
+}
+</style>
+
+<script>
+
+// これでNGのループを作成すればいい感じかも
+$('#test_1').wrap("<div class=ngimage id=test_1_view> </div>");
+$('#test_1_view').append("<p>NGテキスト : どのくらいの文字列が埋め込めるかのテスト</p>");
+
+</script>
